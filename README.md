@@ -1,5 +1,4 @@
 
-```
 
 ## Description
 
@@ -23,7 +22,7 @@ Run docker image for training timm model with Pytorch Lightening -
 ```bash
 
 make run
-
+```
 
 <br>
 
