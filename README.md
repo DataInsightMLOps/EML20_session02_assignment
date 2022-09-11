@@ -3,14 +3,19 @@
 ## Description
 
 
-Build docker image for training timm model with Pytorch Lightening using -
+Build docker image for training timm model with Pytorch Lightning using -
 
-1.)Pytorch Lightening
+1.)Pytorch Lightning
 <br>
-2.)Hydra
+2.) CIFAR image set
 <br>
-3.)Docker
+3.) TIMM pre trained model
+<br>
+4.)Hydra
+<br>
+5.)Docker
 
+COG is not integrated yet
 
 ## How to run
 
