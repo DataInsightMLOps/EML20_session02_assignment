@@ -19,6 +19,8 @@ COG is not integrated yet
 
 ## How to run
 
+code available in master branch
+
 ```bash
 
 make build
