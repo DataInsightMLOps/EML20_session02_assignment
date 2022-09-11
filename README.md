@@ -5,9 +5,9 @@
 
 Build docker image for training timm model with Pytorch Lightening using -
 
-Pytorch Lightening
-Hydra
-Docker
+1.)Pytorch Lightening
+2.)Hydra
+3.)Docker
 
 ## How to run
 
