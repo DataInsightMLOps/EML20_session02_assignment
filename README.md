@@ -14,12 +14,16 @@ Build docker image for training timm model with Pytorch Lightning using -
 4.)Hydra
 <br>
 5.)Docker
+6.)Optuna optimizer
 
 COG is not integrated yet
 
 ## How to run
 
 code available in master branch
+
+CIFAR Optuna run - 
+!python src/train.py -m hparams_search=cfar10_optuna experiment=cifar10
 
 ```bash
 
