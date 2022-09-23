@@ -1,2 +1,6 @@
 ['remote "gdrive"']
     url = gdrive://1HwnC__IhFp6xqn2z2YyV5TdL4ssGUaBK
+['remote "gdrive1"']
+    url = gdrive://1XFj17KZCil_pIRWHhHHd6i1aD4zuYFhG
+['remote "gdriveakshat"']
+    url = gdrive://1KQXGmslhexs8PwsdotGuDXYMXaF2Buaj

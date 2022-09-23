@@ -1,0 +1,5 @@
+outs:
+- md5: ac10d508682455c5e81ceb21c484f837.dir
+  size: 1074803702
+  nfiles: 62
+  path: logs
