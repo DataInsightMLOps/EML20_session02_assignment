@@ -1,0 +1,100 @@
+[2022-09-24 17:00:55,131][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-24 17:00:55,141][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-24 17:00:55,248][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar_datamodule.CIFAR10DataModule>
+[2022-09-24 17:00:55,253][__main__][INFO] - Instantiating model <src.models.timm_module.TIMMLitModule>
+[2022-09-24 17:00:55,556][timm.models.helpers][INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+[2022-09-24 17:00:56,112][__main__][INFO] - Instantiating callbacks...
+[2022-09-24 17:00:56,112][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-24 17:00:56,117][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-24 17:00:56,119][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-24 17:00:56,120][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-24 17:00:56,120][__main__][INFO] - Instantiating loggers...
+[2022-09-24 17:00:56,121][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.tensorboard.TensorBoardLogger>
+[2022-09-24 17:00:56,124][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-24 17:00:56,757][__main__][INFO] - Logging hyperparameters!
+[2022-09-24 17:00:58,522][__main__][INFO] - Starting training!
+[2022-09-24 17:37:49,551][__main__][INFO] - Starting testing!
+[2022-09-24 17:38:18,733][__main__][INFO] - Best ckpt path: /content/gdrive/MyDrive/eml_log/train/multiruns/2022-09-24_17-00-53/0/checkpoints/epoch_007.ckpt
+[2022-09-24 17:38:18,738][src.utils.utils][INFO] - Closing loggers...
+[2022-09-24 17:38:18,740][src.utils.utils][INFO] - Output dir: /content/EML20_session02_assignment/logs/train/multiruns/2022-09-24_17-00-53/0
+[2022-09-24 17:38:18,740][src.utils.utils][INFO] - Retrieved metric value! <val/acc_best=0.951200008392334>
+[2022-09-24 17:38:19,062][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-24 17:38:19,068][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-24 17:38:19,193][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar_datamodule.CIFAR10DataModule>
+[2022-09-24 17:38:19,197][__main__][INFO] - Instantiating model <src.models.timm_module.TIMMLitModule>
+[2022-09-24 17:38:19,359][timm.models.helpers][INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+[2022-09-24 17:38:19,450][__main__][INFO] - Instantiating callbacks...
+[2022-09-24 17:38:19,451][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-24 17:38:19,455][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-24 17:38:19,457][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-24 17:38:19,458][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-24 17:38:19,458][__main__][INFO] - Instantiating loggers...
+[2022-09-24 17:38:19,459][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.tensorboard.TensorBoardLogger>
+[2022-09-24 17:38:19,461][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-24 17:38:20,328][__main__][INFO] - Logging hyperparameters!
+[2022-09-24 17:38:20,347][__main__][INFO] - Starting training!
+[2022-09-24 18:17:12,046][__main__][INFO] - Starting testing!
+[2022-09-24 18:17:44,188][__main__][INFO] - Best ckpt path: /content/gdrive/MyDrive/eml_log/train/multiruns/2022-09-24_17-00-53/1/checkpoints/epoch_009.ckpt
+[2022-09-24 18:17:44,194][src.utils.utils][INFO] - Closing loggers...
+[2022-09-24 18:17:44,196][src.utils.utils][INFO] - Output dir: /content/EML20_session02_assignment/logs/train/multiruns/2022-09-24_17-00-53/1
+[2022-09-24 18:17:44,197][src.utils.utils][INFO] - Retrieved metric value! <val/acc_best=0.7372000217437744>
+[2022-09-24 18:17:44,781][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-24 18:17:44,787][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-24 18:17:44,868][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar_datamodule.CIFAR10DataModule>
+[2022-09-24 18:17:44,872][__main__][INFO] - Instantiating model <src.models.timm_module.TIMMLitModule>
+[2022-09-24 18:17:45,028][timm.models.helpers][INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+[2022-09-24 18:17:45,129][__main__][INFO] - Instantiating callbacks...
+[2022-09-24 18:17:45,129][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-24 18:17:45,134][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-24 18:17:45,136][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-24 18:17:45,136][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-24 18:17:45,137][__main__][INFO] - Instantiating loggers...
+[2022-09-24 18:17:45,137][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.tensorboard.TensorBoardLogger>
+[2022-09-24 18:17:45,140][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-24 18:17:46,044][__main__][INFO] - Logging hyperparameters!
+[2022-09-24 18:17:46,064][__main__][INFO] - Starting training!
+[2022-09-24 18:54:03,120][__main__][INFO] - Starting testing!
+[2022-09-24 18:54:30,975][__main__][INFO] - Best ckpt path: /content/gdrive/MyDrive/eml_log/train/multiruns/2022-09-24_17-00-53/2/checkpoints/epoch_008.ckpt
+[2022-09-24 18:54:30,980][src.utils.utils][INFO] - Closing loggers...
+[2022-09-24 18:54:30,982][src.utils.utils][INFO] - Output dir: /content/EML20_session02_assignment/logs/train/multiruns/2022-09-24_17-00-53/2
+[2022-09-24 18:54:30,983][src.utils.utils][INFO] - Retrieved metric value! <val/acc_best=0.9348000288009644>
+[2022-09-24 18:54:31,315][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-24 18:54:31,321][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-24 18:54:31,376][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar_datamodule.CIFAR10DataModule>
+[2022-09-24 18:54:31,380][__main__][INFO] - Instantiating model <src.models.timm_module.TIMMLitModule>
+[2022-09-24 18:54:31,531][timm.models.helpers][INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+[2022-09-24 18:54:31,633][__main__][INFO] - Instantiating callbacks...
+[2022-09-24 18:54:31,634][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-24 18:54:31,638][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-24 18:54:31,640][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-24 18:54:31,640][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-24 18:54:31,641][__main__][INFO] - Instantiating loggers...
+[2022-09-24 18:54:31,641][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.tensorboard.TensorBoardLogger>
+[2022-09-24 18:54:31,644][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-24 18:54:32,556][__main__][INFO] - Logging hyperparameters!
+[2022-09-24 18:54:32,574][__main__][INFO] - Starting training!
+[2022-09-24 19:30:55,055][__main__][INFO] - Starting testing!
+[2022-09-24 19:31:22,853][__main__][INFO] - Best ckpt path: /content/gdrive/MyDrive/eml_log/train/multiruns/2022-09-24_17-00-53/3/checkpoints/epoch_004.ckpt
+[2022-09-24 19:31:22,858][src.utils.utils][INFO] - Closing loggers...
+[2022-09-24 19:31:22,860][src.utils.utils][INFO] - Output dir: /content/EML20_session02_assignment/logs/train/multiruns/2022-09-24_17-00-53/3
+[2022-09-24 19:31:22,861][src.utils.utils][INFO] - Retrieved metric value! <val/acc_best=0.9531999826431274>
+[2022-09-24 19:31:23,190][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-24 19:31:23,196][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-24 19:31:23,272][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar_datamodule.CIFAR10DataModule>
+[2022-09-24 19:31:23,276][__main__][INFO] - Instantiating model <src.models.timm_module.TIMMLitModule>
+[2022-09-24 19:31:23,425][timm.models.helpers][INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+[2022-09-24 19:31:23,529][__main__][INFO] - Instantiating callbacks...
+[2022-09-24 19:31:23,530][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-24 19:31:23,535][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-24 19:31:23,536][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-24 19:31:23,537][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-24 19:31:23,537][__main__][INFO] - Instantiating loggers...
+[2022-09-24 19:31:23,538][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.tensorboard.TensorBoardLogger>
+[2022-09-24 19:31:23,541][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-24 19:31:24,447][__main__][INFO] - Logging hyperparameters!
+[2022-09-24 19:31:24,466][__main__][INFO] - Starting training!
+[2022-09-24 20:07:36,656][__main__][INFO] - Starting testing!
+[2022-09-24 20:08:04,899][__main__][INFO] - Best ckpt path: /content/gdrive/MyDrive/eml_log/train/multiruns/2022-09-24_17-00-53/4/checkpoints/epoch_008.ckpt
+[2022-09-24 20:08:04,904][src.utils.utils][INFO] - Closing loggers...
+[2022-09-24 20:08:04,906][src.utils.utils][INFO] - Output dir: /content/EML20_session02_assignment/logs/train/multiruns/2022-09-24_17-00-53/4
+[2022-09-24 20:08:04,907][src.utils.utils][INFO] - Retrieved metric value! <val/acc_best=0.6197999715805054>
